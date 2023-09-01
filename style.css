@@ -455,7 +455,7 @@ textarea:focus {
   flex-direction: column;
 }
 table {
-  min-width: 60%;
+  min-width: 50%;
   text-align: left;
   border-collapse: collapse;
   margin-top: 40px;
