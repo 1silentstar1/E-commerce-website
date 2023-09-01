@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e0f661c42f.js" crossorigin="anonymous"></script>
+  <title>Headphones</title>
+</head>
+
+<body>
+  <!-------------------header-------------->
+  <div>
+    <div class="container">
+      <div class="header-nav">
+        <h2><i class="fa-solid fa-headphones"></i>My Headphone.</h2>
+        <nav>
+          <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html"  class="active">Products</a></li>
+            <li><a href="./index.html#reviews">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <i class="fa-solid fa-cart-shopping" onclick="cartPage()"></i>
+          <i id="menu-icon" class="fa-solid fa-caret-down" onclick="show()"></i>
+
+
+
+        </nav>
+      </div>
+
+    </div>
+  </div>
+
+  <!-----------------------Products----------------------->
+  <div class="products">
+    <div class="container">
+      <div class="product-details">
+        <div class="col-p">
+          <img id="main" src="./images/product1.jpg" alt="#">
+        </div>
+        <div class="col-p text-details">
+          <h2>Headphone A-99</h2>
+          <p class="price">30.00$</p>
+          <select class="select">
+            <option value="">Select color</option>
+            <option value="">Red</option>
+            <option value="">Black</option>
+            <option value="">Yellow</option>
+            <option value="">Pink</option>
+          </select>
+          <input type="number" value="1">
+          <a href="#" class="btn">Add To Cart</a>
+          <h4>Product details</h4>
+          <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, maiores delectus. Non illum officia quo neque quia sed, sequi facere impedit? Deleniti recusandae accusamus repellendus, excepturi voluptas natus! Quo, provident.</p>
+        </div>
+        
+      </div>
+      <h2 class="title">Products</h2>
+      <div class="latest details">
+        <div class="col-3">
+          <img class="img" src="./images/product1.jpg" alt="#">
+          
+        </div>
+  
+        <div class="col-3">
+          <img class="img" class="img" src="./images/product7.jpg" alt="#">
+          
+  
+  
+        </div>
+        <div class="col-3">
+          <img class="img" src="./images/product5.jpg" alt="#">
+          
+        </div>
+  
+      </div>
+      
+  
+    </div>
+        <div class="container">
+          
+          <div class="latest details">
+            <div class="col-3">
+              <img class="img" src="./images/product4.jpg" alt="#">
+              
+            </div>
+        
+            <div class="col-3">
+              <img class="img" class="img" src="./images/product5.jpg" alt="#">
+              
+        
+        
+            </div>
+            <div class="col-3">
+              <img class="img" src="./images/product6.jpg" alt="#">
+              
+            </div>
+        
+          </div>
+        
+          
+        
+        </div>
+
+
+
+
+
+        <div id="more">
+              <div class="container">
+                
+                <div class="latest details">
+                  <div class="col-3">
+                    <img class="img" src="./images/product1.jpg" alt="#">
+                    
+                  </div>
+              
+                  <div class="col-3">
+                    <img class="img" class="img" src="./images/product7.jpg" alt="#">
+                
+                  </div>
+                  <div class="col-3">
+                    <img class="img" src="./images/product5.jpg" alt="#">
+                    
+                  </div>
+              
+                </div>
+              
+              
+              </div>
+                  <div class="container">
+                  
+                    <div class="latest details">
+                      <div class="col-3">
+                        <img class="img" src="./images/product4.jpg" alt="#">
+                        
+                      </div>
+                  
+                      <div class="col-3">
+                        <img class="img" src="./images/product5.jpg" alt="#">
+                        
+                  
+                  
+                      </div>
+                      <div class="col-3">
+                        <img class="img" src="./images/product6.jpg" alt="#">
+                        
+                      </div>
+                  
+                    </div>
+                  
+                    
+                  
+                  </div>
+        </div>
+  </div>
+
+  <!-- -----------------footer------------------------------>
+  <div class="footer">
+    <div class="container">
+      <div class="row-f">
+        <div class="col-3-f">
+          <h2><i class="fa-solid fa-headphones"></i>My Headphone.</h2>
+          <p>1522 Cohoe Ct, Kenai, Alaska 99611, USA <br>mail@gmail.com <br> (907) 335-3331 </p>
+        </div>
+        <div class="col-3  col-f">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="col-3  col-f">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a class="fb" href="#">Facebook <i class="fa-brands fa-facebook"></i></a></i></li>
+            <li><a class="insta" href="#">Instagram <i class="fa-brands fa-instagram"></i></a></i></li>
+            <li><a class="twitter" href="#">Twitter <i class="fa-brands fa-twitter"></i></a></i></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Js Icon menu-->
+  <script>
+    var menu = document.getElementById("nav")
+    menu.style.height = "0px"
+    function show() {
+      if (menu.style.height == "0px") {
+        menu.style.height = "200px"
+      } else {
+        menu.style.height = "0px"
+      }
+    }
+  </script>
+<!--Js for products-->
+<script>
+  var img = document.querySelectorAll("img")
+  var mainImg = document.getElementById("main")
+  img.forEach((element) => {
+      element.addEventListener("click", () => {
+        mainImg.src = element.src
+        scroll(0, 0)
+      })
+    })
+  
+
+</script>
+<!--Js cart page -->
+<script>
+  function cartPage() {
+    window.location.href = "cart.html";
+  }
+</script>
+</body>
+</html>

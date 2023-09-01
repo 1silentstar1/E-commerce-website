@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e0f661c42f.js" crossorigin="anonymous"></script>
+  <title>Headphones</title>
+</head>
+
+<body>
+  <!-------------------header-------------->
+  <div>
+    <div class="container">
+      <div class="header-nav">
+        <h2><i class="fa-solid fa-headphones"></i>My Headphone.</h2>
+        <nav>
+          <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"  class="active">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="./index.html#reviews">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <i class="fa-solid fa-cart-shopping" onclick="cartPage()"></i>
+          <i id="menu-icon" class="fa-solid fa-caret-down" onclick="show()"></i>
+
+
+
+        </nav>
+      </div>
+      
+    </div>
+  </div>
+  <!-- -----------------about------------------------------>
+  <div class="about-us"> 
+    <div class="founder">
+      <h2 class="title">Meet Our Founder</h2>
+      <img src="./images/pexels-sound-on-3756989.jpg">
+      <p>Hello, My name is Tiffany Young, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nemo modi aliquam iure.</p>
+    
+    </div>
+    <h2 class="title">Our Story</h2>
+    <div class="container">
+      <div class="story">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque molestias qui consectetur
+          consequuntur quo
+          quibusdam quam nemo reprehenderit a molestiae aliquam tempore perferendis sequi non nobis quasi, dolore
+          omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non saepe iure quasi, aliquam, illo qui voluptas error dolorum quae aperiam asperiores, aliquid amet nisi in distinctio perferendis! Asperiores, exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, natus! Laborum quaerat asperiores rem nobis eveniet neque ut perspiciatis porro debitis quasi, esse, libero maiores quisquam architecto omnis. Suscipit, dolor?
+        </p>
+      </div>
+      
+      
+    
+    </div>
+    </div>
+
+
+
+  </div>  
+
+  <!-- -----------------footer------------------------------>
+  <div class="footer">
+    <div class="container">
+      <div class="row-f">
+        <div class="col-3-f">
+          <h2><i class="fa-solid fa-headphones"></i>My Headphone.</h2>
+          <p>1522 Cohoe Ct, Kenai, Alaska 99611, USA <br>mail@gmail.com <br> (907) 335-3331 </p>
+        </div>
+        <div class="col-3  col-f">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="col-3  col-f">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a class="fb" href="#">Facebook <i class="fa-brands fa-facebook"></i></a></i></li>
+            <li><a class="insta" href="#">Instagram <i class="fa-brands fa-instagram"></i></a></i></li>
+            <li><a class="twitter" href="#">Twitter <i class="fa-brands fa-twitter"></i></a></i></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Js Icon menu-->
+  <script>
+    var menu = document.getElementById("nav")
+    menu.style.height = "0px"
+    function show() {
+      if (menu.style.height == "0px") {
+        menu.style.height = "200px"
+      } else {
+        menu.style.height = "0px"
+      }
+    }
+
+
+
+
+
+  </script>
+  <!--Js cart page -->
+  <script>
+    function cartPage() {
+      window.location.href = "cart.html";
+    }
+  </script>
+</body>
+
+</html>
