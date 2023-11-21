@@ -455,7 +455,7 @@ textarea:focus {
   flex-direction: column;
 }
 table {
-  min-width: 60%;
+  min-width: 50%;
   text-align: left;
   border-collapse: collapse;
   margin-top: 40px;
@@ -498,7 +498,6 @@ td input {
   transform: scale(1.2);
 }
 .fa-trash {
-  margin-left: 30%;
   padding: 10px;
 
   justify-self: center;
